@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\SIM\rtx-app-sim.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\SIM\rtx-app-sim.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue Jun 01 23:55:07 2021
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Thu Jul 01 07:42:59 2021
 <BR><P>
 <H3>Maximum Stack Usage =        192 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -459,7 +459,7 @@ Global Symbols
 
 <P><STRONG><a name="[9e]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
 
-<P><STRONG><a name="[a]"></a>SVC_Handler</STRONG> (Thumb, 162 bytes, Stack size 24 bytes, k_task.o(i.SVC_Handler))
+<P><STRONG><a name="[a]"></a>SVC_Handler</STRONG> (Thumb, 160 bytes, Stack size 24 bytes, k_task.o(i.SVC_Handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 192 + Unknown Stack Size
 <LI>Call Chain = SVC_Handler &rArr; k_rtx_init &rArr; k_mem_init &rArr; k_mpool_create &rArr; tfp_printf &rArr; tfp_format &rArr; putchw
 </UL>
@@ -713,8 +713,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_put_string
 </UL>
-<BR>[Address Reference Count : 2]<UL><LI> ae_tasks.o(i.task1)
-<LI> ae_tasks.o(i.task2)
+<BR>[Address Reference Count : 2]<UL><LI> ae_tasks.o(i.task2)
+<LI> ae_tasks.o(i.task1)
 </UL>
 <P><STRONG><a name="[34]"></a>task_null</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, null_task.o(i.task_null))
 <BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = task_null &rArr; tfp_printf &rArr; tfp_format &rArr; putchw
